@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">me-ecoログイン</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- 認証 -->
+    <string name="account_type">jp.co.fnj.meecologin.account</string>
+
+    <!-- ログイン画面 -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="label_login">LOGIN</string>
+    <string name="label_login_guide">サイバーホームの[メールアドレス]と[パスワード]でログインできます。</string>
+    <string name="hint_user_name">メールアドレス</string>
+    <string name="hint_user_password">パスワード</string>
+    <string name="checkbox_keep_login">ログイン状態を保持する</string>
+    <string name="button_login">ログイン</string>
+    <string name="label_link_login_method">▶ <u>ログイン方法またはメールパスワードを忘れた方はこちら</u></string>
+    <string name="url_login_method">http://www.cyberhome.ne.jp/login/login_method.html</string>
+    <string name="progress_login">ログイン中</string>
+    <string name="error_network_connection_failure">ネットワークエラーが発生しました。しばらくしてからもう一度お試しください。</string>
+    <string name="error_login_no_user">ログインに失敗しました。ユーザーID、パスワードをご確認ください。(status=1)</string>
+    <string name="error_login_failure">予期せぬエラーが発生しました</string>
+
+    <!--コンテンツ表示画面-->
+    <string name="title_activity_contents">ContentsActivity</string>
+    <string name="progress_logout">ログアウト中</string>
+
+    <string name="not_available_html"><![CDATA[<html><head><meta http–equiv=\"Content–Type\" content=\"text/html; charset=utf–8\"></head><body><p style=\"font-size:18px;text-align:center;margin-top:150px;\">エラーが発生しました。CYBERHOMEヘルプデスクへお問合せください。(status=xx)<br>お問い合わせ電話番号：0120-318406</p></body></html>]]></string>
+    <string name="button_remove_default_app">ブラウザのデフォルト起動設定を解除</string>
+    <string name="toast_no_default_app">デフォルトに設定されているアプリはありません</string>
+    <string name="action_logout">ログアウト</string>
+    <string name="action_hide_action_bar">アクションバーを隠す</string>
+</resources>
